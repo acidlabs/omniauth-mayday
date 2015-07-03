@@ -1,8 +1,6 @@
 # Omniauth::Mayday
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/omniauth/mayday`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+OmniAuth Strategy for MayDay Login
 
 ## Installation
 
@@ -22,7 +20,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Create a **omniauth-mayday.yml** file in your config directory
+
+```
+development:
+  auth_server_url: "YOUR-AUTH-SERVER-URL"
+  auth_server_path: "YOUR-AUTH-SERVER-AUTHORIZE-PATH"
+```
+
+#### Example
+
+```
+development:
+  auth_server_url: "http://localhost:3000/"
+  auth_server_path: "/oauth/authorize"
+```
 
 ## Development
 
