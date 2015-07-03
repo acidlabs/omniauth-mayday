@@ -1,7 +1,3 @@
-require "omniauth/mayday/version"
-
-module Omniauth
-  module Mayday
-    # Your code goes here...
-  end
-end
+require 'omniauth/mayday/version'
+require 'omniauth/mayday/config'
+require 'omniauth/strategies/mayday'
